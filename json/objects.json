@@ -1,0 +1,62 @@
+{
+  "flashlight": {
+    "name": "Lampe torche",
+    "image": "flashlight.png",
+    "description": "Une lampe torche. Elle n'emmet pas de lumière.",
+    "message": {"message":"On dirait que cette lampe torche ne fonctionne pas. Les piles sont peut-être à plat.","image":"joueur.png"},
+    "pickup_once": true
+  },
+  "aa_batteries": {
+    "name": "Piles AA",
+    "image": "aa_batteries.png",
+    "description": "2 piles électriques AA",
+    "message": {"message":"Ces piles ne n'ont pas le bon format pour la lampe torche. A quoi pourront-elles me servir ?","image":"joueur.png"},
+    "pickup_once": true
+  },
+  "matchbox": {
+    "name": "Boîte d'alumettes",
+    "image": "matchbox.png",
+    "description": "Une boite d'alumettes presque pleine",
+    "pickup_once": true
+  },
+  "bague": {
+    "name": "Bague",
+    "image": "bague.png",
+    "description": "Bague magique.",
+    "message": {"message":"Cette bague est bien étrange. Elle a probablement une utilité.","image":"joueur.png"},
+    "pickup_once": true
+  },
+  "cle": {
+    "name": "Clé rouillée",
+    "image": "cle.png",
+    "description": "Vieille clé rouillée.",
+    "message": {"message":"C'est probablement la clé du WC du rez.'","image":"joueur.png"},
+    "pickup_once": true
+  },
+  "ladder": {
+    "name": "Échelle",
+    "image": "ladder.png",
+    "description": "Échelle en bois.",
+    "message": {"message":"Cette échelle est encore en assez bon état.'","image":"joueur.png"},
+    "pickup_once": true
+  },
+  "wine": {
+    "name": "Bouteille de vin",
+    "image": "pinotnoir.png",
+    "description": "Pinot noir de Salquenen.",
+    "pickup_once": true
+  },
+  "knife": {
+    "name": "Couteau Suisse",
+    "image": "couteausuisse.png",
+    "description": "Couteau Suisse",
+    "message": {"message":"Avec ça, on peut presque tout faire.'","image":"joueur.png"},
+    "pickup_once": true
+  },
+  "bread": {
+    "name": "Pain",
+    "image": "pain.png",
+    "description": "pain",
+    "pickup_once": true
+  }
+}

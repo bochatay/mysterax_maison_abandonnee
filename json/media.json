@@ -1,0 +1,80 @@
+{
+  "astronaut_painting": {"main":{
+    "name": "Peinture du couloir principal",
+    "image": "astro_paint.jpg",
+    "condition" : null
+  },"other":{
+    "name": "Peinture du couloir principal",
+    "image": "astro_paint2.jpg",
+    "condition" : {"requires_bools": {
+      "radio_btn_1" : false,
+      "radio_btn_2" : true,
+      "radio_btn_3" : false,
+      "radio_btn_4" : true,
+      "radio_btn_5" : false,
+      "radio_btn_6" : false
+  }}}},
+  "newspaper": {"main":{
+    "name": "Journal dans la cuisine",
+    "image": "newspaper.jpg",
+    "condition" : null
+  }},
+  "mouse": {"main":{
+    "name": "Petite souris dans la cuisine",
+    "image": "mouse.jpg",
+    "message":{"message":"Donne-moi du pain et je t'aiderai.", "image":"souris.png"},
+    "condition" : {"requires_bools":{"acces_chambre_enfants":false}},
+    "action":{
+      "object":"bread",
+      "bool":"acces_chambre_enfants",
+      "status":true,
+      "message":{"message":"Merci! Je vais déverrouiller la porte de la chambre des enfants de l'intérieur.", "image":"souris.png"}
+    }
+  },"fait":{
+    "name": "Petite souris dans la cuisine",
+    "image": "mouse.jpg",
+    "condition" : {}
+  }},
+  "tableau_nucleaire": {"main":{
+    "name": "Réacteur nucléaire",
+    "image": "reacteur.jpg",
+    "condition" : null,
+    "action":{
+      "object":"bague",
+      "bool":"reacteur_allume",
+      "status":true,
+      "message":{"message":"\" BZZZZZT !! \"", "image":"narrateur.png"}
+    }
+  }},
+  "oven": {"main":{
+    "name": "Four de la cuisine",
+    "image": "oven.jpg",
+    "condition" : null
+  }},
+  "child_drawing": {"main":{
+    "name": "Dessin de la famille au salon",
+    "image": "drawing.jpg",
+    "condition" : null
+  }},
+  "enigme_radio": {"main":{
+    "name": "papier chiffoné",
+    "image": "enigme_radio.jpg",
+    "condition" : null
+  }},
+  "tableau_montagne": {"main":{
+    "name": "tableau représentant une montagne",
+    "image": "tableau_montagne.jpg",
+    "condition" : null
+  }},
+  "audio_grammophone": {"main":{
+    "name": "Musique",
+    "audio": "grammophone.opus",
+    "condition" : null,
+    "action":{
+      "object":"flashlight",
+      "bool":"lumiere_grammophone",
+      "status":true,
+      "message":{"message":"Cette lampe n'emmet pas de lumière visible. C'est une télécommande infrarouge! J'ai activé quelque-chose.","image":"joueur.png"}
+    }
+  }}
+}

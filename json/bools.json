@@ -1,0 +1,66 @@
+{
+  "petrol_lamp": {
+    "name": "Lampe à pétrole",
+    "status": false,
+    "condition_true": {
+        "requires_objets": ["matchbox"],
+        "message_fail":{"message":"Il me faut du feu pour allumer cette lampe à pétrole!", "image":"joueur.png"}
+    },
+    "condition_false": {
+    }
+  },
+  "radio_btn_1": {
+    "name": "Radio btn 1",
+    "status": false,
+    "condition_true": {},
+    "condition_false": {}
+  },
+  "radio_btn_2": {
+    "name": "Radio btn 2",
+    "status": false,
+    "condition_true": {},
+    "condition_false": {}
+  },
+  "radio_btn_3": {
+    "name": "Radio btn 3",
+    "status": false,
+    "condition_true": {},
+    "condition_false": {}
+  },
+  "radio_btn_4": {
+    "name": "Radio btn 4",
+    "status": false,
+    "condition_true": {},
+    "condition_false": {}
+  },
+  "radio_btn_5": {
+    "name": "Radio btn 5",
+    "status": false,
+    "condition_true": {},
+    "condition_false": {}
+  },
+  "radio_btn_6": {
+    "name": "Radio btn 6",
+    "status": false,
+    "condition_true": {},
+    "condition_false": {}
+  },
+  "acces_chambre_enfants": {
+    "name":"acces_chambre_enfants",
+    "status":false,
+    "condition_true": {},
+    "condition_false": {}
+  },
+  "lumiere_grammophone": {
+    "name":"Activation via lampe torche",
+    "status":false,
+    "condition_true": {},
+    "condition_false": {}
+  },
+  "reacteur_allume":{
+    "name":"Réacteur allumé",
+    "status":false,
+    "condition_true": {},
+    "condition_false": {}
+  }
+}

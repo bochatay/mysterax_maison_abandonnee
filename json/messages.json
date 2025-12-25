@@ -1,0 +1,51 @@
+{
+  "debut_jeu": {
+    "fait" :false,
+    "phrases":[
+        {"message":"Bienvenue !", "image":"narrateur.png"},
+        {"message":"Vous vous promenez dans la campagne du valais central quand vous voyez cette petite maison qui semble abandonnée.", "image":"narrateur.png"},
+        {"message":"Quels secrets peut bien cacher cet endroit?", "image":"narrateur.png"},
+        {"message":"Si votre curiosité l'emporte, cliquez sur la porte de la maison pour y entrer.", "image":"narrateur.png"}
+    ]
+  },
+  "entree_soussol_sombre": {
+    "fait" :false,
+    "phrases":[
+        {"message":"Il fait trop sombre ici !", "image":"joueur.png"},
+        {"message":"Je ne vais pas m'aventurer ici avec la lampe à pétrole de la cuisine, ça pourrait être dangereux.", "image":"joueur.png"},
+        {"message":"Il doit bien y avoir un moyen d'allumer la lumière...", "image":"joueur.png"}
+    ]
+  },"dialogue_et_1": {
+    "fait" :false,
+    "phrases":[
+        {"message":"Bienvenue ! Je t'attendais depuis au moins 5 minutes.", "image":"alien.png"},
+        {"message":"Mais, tu arrives les mains vides ? Je m'ennuie beaucoup dans cette mission...", "image":"alien.png"},
+        {"message":"et le retour sur ma planète ne m'enchante guère. Trop de choses sont interdites sur Oxo.", "image":"alien.png"},
+        {"message":"Garde les pieds sur terre et la tête dans les étoiles", "image":"alien.png"},
+        {"message":"A la revoyure !", "image":"alien.png"}
+    ]
+  },"dialogue_et_2": {
+    "fait" :false,
+    "phrases":[
+        {"message":"Bienvenue ! Je t'attendais depuis au moins 5 minutes.", "image":"alien.png"},
+        {"message":"Ahhh, tu as amené une bonne bouteille ! Les traditions ne se perdent pas, merci!", "image":"alien.png"},
+        {"message":"Verse-moi un canon, nom de diou! Glouglouglou, mmm chè bon", "image":"alien.png"},
+        {"message":"Je vais Hips! leur montrer qui est le chef à ces bredignots sur Oxo Hips ! à mon retour.", "image":"alien.png"},
+        {"message":"Allez hips, viens dans le cockpit tu vas voir ce qu'elle a dans le ventre ma hips.. soucoupe!", "image":"alien.png"}
+    ]
+  },"dialogue_et_cockpit": {
+    "fait" :false,
+    "phrases":[
+        {"message":"Attache ta ceinture, hic.. on y va!", "image":"alien.png"},
+        {"message":"Euh tu es sûr de toi là ??", "image":"joueur2.png"},
+        {"message":"Ne t'inquiète pas, je suis assisté par Lia", "image":"alien.png"},
+        {"message":"Systèmes opérationnels. Mode acrobatique activé. Veuillez maintenir votre calme.", "image":"lia.png"},
+        {"message":"Euh ok, mais pas d'excès de vitesse alors. Il y a des radars à la sortie de Sion, des fois.", "image":"joueur.png"},
+        {"message":"En 1951, il n'y a pas encore de radars !", "image":"alien.png"},
+        {"message":"Zooooom ! [ La soucoupe virevolte, fait des pirouettes et des vrilles impossibles, laissant derrière elle un arc-en-ciel qui ferait pâlir une licorne cosmique.]", "image":false},
+        {"message":"Merci du voyage, j'ai la tête qui tourne", "image":"joueur.png"},
+        {"message":"Moi aussi, mais pas pour la même raison. Hic. A la revoyure!", "image":"alien.png"}
+      ]
+  }
+
+}

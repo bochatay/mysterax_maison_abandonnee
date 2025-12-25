@@ -1,0 +1,36 @@
+{
+  "computer_password": {
+    "messge":{"message":"mot de passe SVP","image":"narrateur.png"},
+    "status":false,
+    "input_position":[195, 227],
+    "ok_position":[245, 277],
+    "ok_text":"Démarrer",
+    "image":"pc.gif",
+    "placeholder":"######",
+    "solutions": ["cervin", "matterhorn"],
+    "success_room":"sousol",
+    "indice":{"message":"Indice. Qu'est-ce que je vous sers ? du vin ?.", "image":"narrateur.png"}
+  },
+  "date_sphere":{
+    "solutions": ["1951"],
+    "status":false,
+    "input_position":[260, 177],
+    "ok_position":[255, 237],
+    "ok_text":"Nom de Zeus!",
+    "placeholder":"####",
+    "image":"sphere_pc.png",
+    "success_room":"sphere",
+    "indice":{"message":"Non. Les journaux de cette période sont ennuyeusement normaux.", "image":"narrateur.png"}
+  },
+  "code_coffre":{
+    "solutions": ["13 etoiles", "13 étoiles", "13*", "13 *"],
+    "status":false,
+    "input_position":[270, 322],
+    "ok_position":[276, 425],
+    "ok_text":"Ouvrir",
+    "placeholder":"## #######",
+    "image":"pc_coffre.gif",
+    "success_room":"coffre_ouvert",
+    "indice":{"message":"Indice: Le cavalier regarde plus souvent les drapeaux que les tableaux Excel", "image":"narrateur.png"}
+  }
+}
