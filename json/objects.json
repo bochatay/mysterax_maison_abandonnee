@@ -3,7 +3,7 @@
     "name": "Lampe torche",
     "image": "flashlight.png",
     "description": "Une lampe torche. Elle n'emmet pas de lumière.",
-    "message": {"message":"On dirait que cette lampe torche ne fonctionne pas. Les piles sont peut-être à plat.","image":"joueur.png"},
+    "message": {"message":"On dirait que cette lampe torche ne fonctionne pas. Les piles sont peut-être à plat ou alors ce n'est pas vraiment une lampe.","image":"joueur.png"},
     "pickup_once": true
   },
   "aa_batteries": {

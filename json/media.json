@@ -69,6 +69,7 @@
   "audio_grammophone": {"main":{
     "name": "Musique",
     "audio": "grammophone.opus",
+    "message":{"message":"Ce grammophone possède un récepteur de télécommande !?", "image":"joueur.png"},
     "condition" : null,
     "action":{
       "object":"flashlight",

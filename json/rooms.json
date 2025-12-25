@@ -9,29 +9,25 @@
         "id": "go_hallway",
         "type": "move",
         "coords": [400, 180, 200, 400],
-        "target_room": "hallway",
-        "condition": null
+        "target_room": "hallway"
       },
       {
         "id": "go_garden",
         "type": "move",
         "coords": [741, 502, 210, 240],
-        "target_room": "garden",
-        "condition": null
+        "target_room": "garden"
       },
       {
         "id": "go_garden2",
         "type": "move",
         "coords": [0, 532, 210, 210],
-        "target_room": "garden",
-        "condition": null
+        "target_room": "garden"
       },
       {
         "id": "take_flashlight",
         "type": "object",
         "coords": [170, 400, 140, 120],
-        "object_id": "flashlight",
-        "condition": null
+        "object_id": "flashlight"
       }
     ]
   }},
@@ -44,15 +40,13 @@
         "id": "take_ladder",
         "type": "object",
         "coords": [252, 314, 400, 200],
-        "object_id": "ladder",
-        "condition": null
+        "object_id": "ladder"
       },{
         "id": "back_to_entrance",
         "type": "move",
         "coords": [0, 710, 40, 40],
         "target_room": "entrance",
-        "image": "back30x30.png",
-        "condition": null
+        "image": "back30x30.png"
       }
     ]
   }},
@@ -66,36 +60,31 @@
         "type": "move",
         "coords": [0, 710, 40, 40],
         "target_room": "entrance",
-        "image": "back30x30.png",
-        "condition": null
+        "image": "back30x30.png"
       },
       {
         "id": "go_to_kitchen",
         "type": "move",
         "coords": [100, 100, 120, 630],
-        "target_room": "kitchen",
-        "condition": null
+        "target_room": "kitchen"
       },
       {
         "id": "go_to_laundry",
         "type": "move",
         "coords": [675, 220, 30, 450],
-        "target_room": "laundry",
-        "condition": null
+        "target_room": "laundry"
       },
       {
         "id": "go_to_livingroom",
         "type": "move",
         "coords": [401,233, 40, 290],
-        "target_room": "livingroom",
-        "condition": null
+        "target_room": "livingroom"
       },
       {
         "id": "go_to_halleway_etage",
         "type": "move",
         "coords": [451,218, 210, 360],
-        "target_room": "hallway_etage",
-        "condition": null
+        "target_room": "hallway_etage"
       },
       {
         "id": "astronaut_painting_zone",
@@ -129,36 +118,31 @@
         "type": "move",
         "coords": [0, 710, 40, 40],
         "target_room": "entrance",
-        "image": "back30x30.png",
-        "condition": null
+        "image": "back30x30.png"
       },
       {
         "id": "go_to_kitchen",
         "type": "move",
         "coords": [100, 100, 120, 630],
-        "target_room": "kitchen",
-        "condition": null
+        "target_room": "kitchen"
       },
       {
         "id": "go_to_laundry",
         "type": "move",
         "coords": [675, 220, 30, 450],
-        "target_room": "laundry",
-        "condition": null
+        "target_room": "laundry"
       },
       {
         "id": "go_to_livingroom",
         "type": "move",
         "coords": [401,233, 40, 290],
-        "target_room": "livingroom",
-        "condition": null
+        "target_room": "livingroom"
       },
       {
         "id": "go_to_halleway_etage",
         "type": "move",
         "coords": [451,218, 210, 360],
-        "target_room": "hallway_etage",
-        "condition": null
+        "target_room": "hallway_etage"
       },
       {
         "id": "astronaut_painting_zone",
@@ -192,26 +176,22 @@
         "id": "go_hallway",
         "type": "move",
         "coords": [1, 80, 30, 650],
-        "target_room": "hallway",
-        "condition": null
+        "target_room": "hallway"
       },{
         "id": "take_matchbox",
         "type": "object",
         "coords": [130, 470, 50, 30],
-        "object_id": "matchbox",
-        "condition": null
+        "object_id": "matchbox"
       },{
         "id": "take_aa_batteries",
         "type": "object",
         "coords": [70, 465, 35, 30],
-        "object_id": "aa_batteries",
-        "condition": null
+        "object_id": "aa_batteries"
       },{
         "id": "go_fenetre",
         "type": "move",
         "coords": [775, 129, 110, 260],
-        "target_room": "fenetrechampble",
-        "condition": null
+        "target_room": "fenetrechampble"
       }
     ]
   }},
@@ -225,15 +205,13 @@
         "type": "move",
         "coords": [0, 710, 40, 40],
         "target_room": "hallway",
-        "image": "back30x30.png",
-        "condition": null
+        "image": "back30x30.png"
       },
       {
         "id": "switch_petrol_lamp",
         "type": "bool",
         "coords": [795, 185, 45, 200],
-        "bool_id": "petrol_lamp",
-        "condition": null
+        "bool_id": "petrol_lamp"
       }
     ]
   },"light":{
@@ -246,15 +224,13 @@
         "type": "move",
         "coords": [0, 710, 40, 40],
         "image": "back30x30.png",
-        "target_room": "hallway",
-        "condition": null
+        "target_room": "hallway"
       },
       {
         "id": "switch_petrol_lamp",
         "type": "bool",
         "coords": [750, 190, 45, 200],
-        "bool_id": "petrol_lamp",
-        "condition": null
+        "bool_id": "petrol_lamp"
       },
       {
         "id": "newspaper_zone",
@@ -287,26 +263,22 @@
         "id": "go_radio",
         "type": "move",
         "coords": [308, 322, 110, 70],
-        "target_room": "radio",
-        "condition": null
+        "target_room": "radio"
       },{
         "id": "voir_tableau_montagne",
         "type": "media",
         "coords": [258, 110, 150, 170],
-        "media_id": "tableau_montagne",
-        "condition": null
+        "media_id": "tableau_montagne"
       },{
         "id": "ecouter_grammophone",
         "type": "media",
         "coords": [700, 311, 150, 170],
-        "media_id": "audio_grammophone",
-        "condition": null
+        "media_id": "audio_grammophone"
       },{
         "id": "go_hallway",
         "type": "move",
         "coords": [0, 710, 40, 40],
         "target_room": "hallway",
-        "condition": null,
         "image": "back30x30.png"
       },{
         "id": "go_miam",
@@ -372,7 +344,72 @@
         "type": "move",
         "coords": [0, 710, 40, 40],
         "target_room": "livingroom",
-        "condition": null,
+        "image": "back30x30.png"
+      }
+    ]
+  },"on":{
+    "image": "radio_on.jpg",
+    "condition" : {"requires_bools": {
+      "radio_btn_1" : false,
+      "radio_btn_2" : true,
+      "radio_btn_3" : false,
+      "radio_btn_4" : true,
+      "radio_btn_5" : false,
+      "radio_btn_6" : false
+    }},
+    "zones": [
+      {
+        "id": "radio_btn_1",
+        "type": "bool",
+        "coords": [192, 429, 69, 66],
+        "bool_id": "radio_btn_1",
+        "image_true": "btn_true.png",
+        "image_false": "btn_false.png"
+      },
+      {
+        "id": "radio_btn_2",
+        "type": "bool",
+        "coords": [303, 429, 69, 66],
+        "bool_id": "radio_btn_2",
+        "image_true": "btn_true.png",
+        "image_false": "btn_false.png"
+      },
+      {
+        "id": "radio_btn_3",
+        "type": "bool",
+        "coords": [409, 429, 69, 66],
+        "bool_id": "radio_btn_3",
+        "image_true": "btn_true.png",
+        "image_false": "btn_false.png"
+      },
+      {
+        "id": "radio_btn_4",
+        "type": "bool",
+        "coords": [517, 429, 69, 66],
+        "bool_id": "radio_btn_4",
+        "image_true": "btn_true.png",
+        "image_false": "btn_false.png"
+      },
+      {
+        "id": "radio_btn_5",
+        "type": "bool",
+        "coords": [617, 429, 69, 66],
+        "bool_id": "radio_btn_5",
+        "image_true": "btn_true.png",
+        "image_false": "btn_false.png"
+      },
+      {
+        "id": "radio_btn_6",
+        "type": "bool",
+        "coords": [727, 429, 69, 66],
+        "bool_id": "radio_btn_6",
+        "image_true": "btn_true.png",
+        "image_false": "btn_false.png"
+      },{
+        "id": "go_livingroom",
+        "type": "move",
+        "coords": [0, 710, 40, 40],
+        "target_room": "livingroom",
         "image": "back30x30.png"
       }
     ]
@@ -385,20 +422,17 @@
         "id": "go_parents_bedroom",
         "type": "move",
         "coords": [21,147,100,540],
-        "target_room": "parents_bedroom",
-        "condition": null
+        "target_room": "parents_bedroom"
       },{
         "id": "go_child_room",
         "type": "move",
         "coords": [751,210, 120, 520],
-        "target_room": "children_room",
-        "condition": null
+        "target_room": "children_room"
       },{
         "id": "go_reduit",
         "type": "move",
         "coords": [619,288,40,200],
-        "target_room": "reduit",
-        "condition": null
+        "target_room": "reduit"
       },{
         "id": "go_combles",
         "type": "move",
@@ -410,14 +444,12 @@
         "id": "go_fenetreetage",
         "type": "move",
         "coords": [427,258,100,200],
-        "target_room": "fenetreetage",
-        "condition": null
+        "target_room": "fenetreetage"
       },{
         "id": "go_hallway",
         "type": "move",
         "coords": [0, 710, 40, 40],
         "target_room": "hallway",
-        "condition": null,
         "image": "back30x30.png"
       }
     ]
@@ -436,7 +468,6 @@
         "type": "move",
         "coords": [0, 710, 40, 40],
         "target_room": "hallway_etage",
-        "condition": null,
         "image": "back30x30.png"
       }
     ]
@@ -449,21 +480,18 @@
         "id": "show_enigme",
         "type": "media",
         "coords": [813, 385, 130, 50],
-        "media_id": "enigme_radio",
-        "condition": null
+        "media_id": "enigme_radio"
       },{
         "id": "code_coffre_input",
         "type": "input",
         "coords": [380, 480, 60, 30],
-        "input_id": "code_coffre",
-        "condition": null
+        "input_id": "code_coffre"
       },
       {
         "id": "go_hallway_etage",
         "type": "move",
         "coords": [0, 710, 40, 40],
         "target_room": "hallway_etage",
-        "condition": null,
         "image": "back30x30.png"
       }
     ]
@@ -476,20 +504,17 @@
         "id": "take_cle",
         "type": "object",
         "coords": [121, 537, 30, 60],
-        "object_id": "cle",
-        "condition": null
+        "object_id": "cle"
       },{
         "id": "take_wine",
         "type": "object",
         "coords": [280, 434, 35, 80],
-        "object_id": "wine",
-        "condition": null
+        "object_id": "wine"
       },{
         "id": "go_hallway_etage",
         "type": "move",
         "coords": [0, 710, 40, 40],
         "target_room": "hallway_etage",
-        "condition": null,
         "image": "back30x30.png"
       }
     ]
@@ -503,15 +528,13 @@
         "type": "move",
         "coords": [0, 710, 40, 40],
         "target_room": "hallway",
-        "condition": null,
         "image": "back30x30.png"
       },
       {
         "id": "take_bague",
         "type": "object",
         "coords": [416, 452, 30, 30],
-        "object_id": "bague",
-        "condition": null
+        "object_id": "bague"
       }
     ]
   }},"combles":{"main":{
@@ -524,7 +547,6 @@
         "type": "move",
         "coords": [0, 710, 40, 40],
         "target_room": "hallway_etage",
-        "condition": null,
         "image": "back30x30.png"
       }
     ]
@@ -537,7 +559,6 @@
         "type": "move",
         "coords": [0, 710, 40, 40],
         "target_room": "hallway_etage",
-        "condition": null,
         "image": "back30x30.png"
       }
     ]
@@ -550,7 +571,6 @@
         "type": "move",
         "coords": [0, 710, 40, 40],
         "target_room": "laundry",
-        "condition": null,
         "image": "back30x30.png"
       }
     ]
@@ -564,7 +584,6 @@
         "type": "move",
         "coords": [0, 710, 40, 40],
         "target_room": "livingroom",
-        "condition": null,
         "image": "back30x30.png"
       },{
         "id":"take_bread",
@@ -589,7 +608,6 @@
         "type": "move",
         "coords": [0, 710, 40, 40],
         "target_room": "hallway",
-        "condition": null,
         "image": "back30x30.png"
       }
     ]
@@ -605,26 +623,22 @@
         "type": "move",
         "coords": [0, 710, 40, 40],
         "target_room": "hallway",
-        "condition": null,
         "image": "back30x30.png"
       },{
         "id": "go_react",
         "type": "move",
         "coords": [155, 304, 75, 200],
-        "target_room": "reacteur",
-        "condition": null
+        "target_room": "reacteur"
       },{
         "id": "go_stock",
         "type": "move",
         "coords": [775, 288, 95, 200],
-        "target_room": "stockage",
-        "condition": null
+        "target_room": "stockage"
       },{
         "id": "pc_input",
         "type": "input",
         "coords": [776, 502, 180, 162],
-        "input_id": "computer_password",
-        "condition": null
+        "input_id": "computer_password"
       }
     ]
   },"allume_code_ok":{
@@ -640,20 +654,17 @@
         "type": "move",
         "coords": [0, 710, 40, 40],
         "target_room": "hallway",
-        "condition": null,
         "image": "back30x30.png"
       },{
         "id": "go_react",
         "type": "move",
         "coords": [155, 304, 75, 200],
-        "target_room": "reacteur",
-        "condition": null
+        "target_room": "reacteur"
       },{
         "id": "go_stock",
         "type": "move",
         "coords": [775, 288, 95, 200],
-        "target_room": "stockage",
-        "condition": null
+        "target_room": "stockage"
       }
     ]
   },"demarre":{
@@ -669,26 +680,22 @@
         "type": "move",
         "coords": [0, 710, 40, 40],
         "target_room": "hallway",
-        "condition": null,
         "image": "back30x30.png"
       },{
         "id": "go_react",
         "type": "move",
         "coords": [155, 304, 75, 200],
-        "target_room": "reacteur",
-        "condition": null
+        "target_room": "reacteur"
       },{
         "id": "go_stock",
         "type": "move",
         "coords": [775, 288, 95, 200],
-        "target_room": "stockage",
-        "condition": null
+        "target_room": "stockage"
       },{
         "id": "go_sphere",
         "type": "move",
         "coords": [340, 210, 200, 300],
-        "target_room": "sphere",
-        "condition": null
+        "target_room": "sphere"
       }
     ]
   }},"sphere":{"main":{
@@ -700,14 +707,12 @@
         "type": "move",
         "coords": [0, 710, 40, 40],
         "target_room": "sousol",
-        "condition": null,
         "image": "back30x30.png"
       },{
         "id": "sphere_pc_input",
         "type": "input",
         "coords": [185, 359, 100, 60],
-        "input_id": "date_sphere",
-        "condition": null
+        "input_id": "date_sphere"
       }
     ]
   },"enclenchee":{
@@ -719,14 +724,12 @@
         "type": "move",
         "coords": [0, 710, 40, 40],
         "target_room": "sousol",
-        "condition": null,
         "image": "back30x30.png"
       },{
         "id": "go_soucoupe",
         "type": "move",
         "coords": [430, 350, 90, 90],
-        "target_room": "soucoupe",
-        "condition": null
+        "target_room": "soucoupe"
       }
     ]
   }},"soucoupe":{"main":{
@@ -739,7 +742,6 @@
         "type": "move",
         "coords": [0, 710, 40, 40],
         "target_room": "sphere",
-        "condition": null,
         "image": "back30x30.png"
       }
     ]
@@ -753,14 +755,12 @@
         "type": "move",
         "coords": [0, 710, 40, 40],
         "target_room": "sphere",
-        "condition": null,
         "image": "back30x30.png"
       },{
         "id": "go_cockpit",
         "type": "move",
         "coords": [736, 252, 130, 420],
-        "target_room": "cockpit",
-        "condition": null
+        "target_room": "cockpit"
       }
     ]
   }},"reacteur":{"main":{
@@ -771,8 +771,7 @@
         "id": "go_sousol",
         "type": "move",
         "coords": [765, 280, 100, 300],
-        "target_room": "sousol",
-        "condition": null
+        "target_room": "sousol"
       },{
         "id": "tableau_nucleaire_zone",
         "media_id": "tableau_nucleaire",
@@ -788,8 +787,7 @@
         "id": "go_sousol",
         "type": "move",
         "coords": [765, 280, 100, 300],
-        "target_room": "sousol",
-        "condition": null
+        "target_room": "sousol"
       }
     ]
   }},"stockage":{"main":{
@@ -801,8 +799,7 @@
         "id": "go_sousol",
         "type": "move",
         "coords": [118, 226, 80, 430],
-        "target_room": "sousol",
-        "condition": null
+        "target_room": "sousol"
       }
     ]
   }},"cockpit":{"main":{
@@ -815,7 +812,6 @@
         "type": "move",
         "coords": [0, 710, 40, 40],
         "target_room": "soucoupe_assis",
-        "condition": null,
         "image": "back30x30.png"
       }
     ]
@@ -828,14 +824,12 @@
         "type": "move",
         "coords": [0, 710, 40, 40],
         "target_room": "sphere",
-        "condition": null,
         "image": "back30x30.png"
       },{
         "id": "go_hublot",
         "type": "move",
         "coords": [390, 285, 200, 200],
-        "target_room": "hublot",
-        "condition": null
+        "target_room": "hublot"
       }
     ]
   }},"hublot":{"main":{
@@ -848,7 +842,6 @@
         "type": "move",
         "coords": [0, 710, 40, 40],
         "target_room": "soucoupe_assis",
-        "condition": null,
         "image": "back30x30.png"
       }
     ]
