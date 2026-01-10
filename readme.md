@@ -13,6 +13,15 @@ Archlinux, ComfyUI, Flux.1-Krea-dev-GGUF_Q8, RTX3060 12GB (eGPU)
 
 Voir le fichier LICENSE pour plus d'info.
 
+![Champ de blé par la fenêtre](media/rooms/fenetrechampble.jpg)
+
+![Corridor de l'étage](media/rooms/hallway_etage.jpg)
+
+![Cockpit du vaisseau spatial](media/rooms/cockpit.jpg)
+
+![Buanderie](media/rooms/laundry.jpg)
+
+
 ## License
 
 All content in this repository (game data, images and sounds)
