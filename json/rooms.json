@@ -239,13 +239,6 @@
         "type": "media",
         "coords": [156, 645, 66, 45]
       }
-      ,
-      {
-        "id": "oven_zone",
-        "media_id": "oven",
-        "type": "media",
-        "coords": [100, 335, 200, 200]
-      }
     ]
   }},
 
