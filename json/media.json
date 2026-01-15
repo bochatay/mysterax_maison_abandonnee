@@ -46,11 +46,6 @@
       "message":{"message":"\" BZZZZZT !! \"", "image":"narrateur.png"}
     }
   }},
-  "oven": {"main":{
-    "name": "Four de la cuisine",
-    "image": "oven.jpg",
-    "condition" : null
-  }},
   "child_drawing": {"main":{
     "name": "Dessin de la famille au salon",
     "image": "drawing.jpg",
@@ -59,6 +54,12 @@
   "enigme_radio": {"main":{
     "name": "papier chiffoné",
     "image": "enigme_radio.jpg",
+    "condition" : null
+  }},
+  "coffre": {"main":{
+    "message":{"message":"On dirait qu'on peut brancher quelque-chose sur ce coffre.", "image":"joueur.png"},
+    "name": "coffre",
+    "image": "coffre.jpg",
     "condition" : null
   }},
   "tableau_montagne": {"main":{

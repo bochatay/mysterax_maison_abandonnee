@@ -183,11 +183,6 @@
         "coords": [130, 470, 50, 30],
         "object_id": "matchbox"
       },{
-        "id": "take_aa_batteries",
-        "type": "object",
-        "coords": [70, 465, 35, 30],
-        "object_id": "aa_batteries"
-      },{
         "id": "go_fenetre",
         "type": "move",
         "coords": [775, 129, 110, 260],
@@ -474,7 +469,31 @@
   }},"parents_bedroom":{"main":{
     "image": "parents_bedroom.jpg",
     "name": "Chambre des parents",
-    "condition" : {},
+    "condition" : {"requires_objects":{"handheld_pc": false}},
+    "zones": [
+      {
+        "id": "show_enigme",
+        "type": "media",
+        "coords": [813, 385, 130, 50],
+        "media_id": "enigme_radio"
+      },{
+        "id": "show_coffre",
+        "type": "media",
+        "coords": [172, 487, 310, 220],
+        "media_id": "coffre"
+      },
+      {
+        "id": "go_hallway_etage",
+        "type": "move",
+        "coords": [0, 710, 40, 40],
+        "target_room": "hallway_etage",
+        "image": "back30x30.png"
+      }
+    ]
+  },"handheld_pc_pret":{
+    "image": "parents_bedroom.jpg",
+    "name": "Chambre des parents",
+    "condition" : {"requires_objects":{"handheld_pc": true}},
     "zones": [
       {
         "id": "show_enigme",
@@ -484,8 +503,9 @@
       },{
         "id": "code_coffre_input",
         "type": "input",
-        "coords": [380, 480, 60, 30],
-        "input_id": "code_coffre"
+        "coords": [380, 469, 102, 36],
+        "input_id": "code_coffre",
+        "image": "handheld_pc_coffre.png"
       },
       {
         "id": "go_hallway_etage",
@@ -590,13 +610,7 @@
         "type":"object",
         "coords":[219,319,160,90],
         "object_id":"bread"
-      },{
-        "id":"take_knife",
-        "type":"object",
-        "coords":[280,432,100,30],
-        "object_id":"knife"
       }
-
     ]
   }},"sousol":{"main":{
     "image": "sousolnoir.jpg",
@@ -813,6 +827,13 @@
         "coords": [0, 710, 40, 40],
         "target_room": "soucoupe_assis",
         "image": "back30x30.png"
+      },
+      {
+        "id": "take_handheld_pc",
+        "type": "object",
+        "coords": [796, 557, 66, 108],
+        "object_id": "handheld_pc",
+        "image": "handheld_pc.png"
       }
     ]
   }},"soucoupe_assis":{"main":{
