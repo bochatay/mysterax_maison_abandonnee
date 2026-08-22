@@ -30,7 +30,7 @@
     "name": "Échelle",
     "image": "ladder.png",
     "description": "Échelle en bois.",
-    "message": {"message":"Cette échelle est encore en assez bon état.'","image":"joueur.png"},
+    "message": {"message":"Cette échelle est encore en assez bon état.","image":"joueur.png"},
     "pickup_once": true
   },
   "wine": {
